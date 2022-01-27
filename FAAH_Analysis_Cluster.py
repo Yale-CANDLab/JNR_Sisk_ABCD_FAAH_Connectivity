@@ -28,9 +28,9 @@ var1 = sys.argv[1]
 print("iter number is {}".format(var1))
 
 #Read in Rest data
-home = '/home/lms233/ABCD_FAAH'
-out_path = '/gpfs/milgram/scratch60/gee_dylan/lms233/ABCD_FAAH/fitted_models_5.2021'
-baseline = pd.read_csv(home + '/Baseline_Masterfile_n=3266_2021-05-21.csv')
+home = '<base path>'
+out_path = '<path to models>/fitted_models_5.2021'
+baseline = pd.read_csv(home + '/Baseline_Masterfile_n=3109_2021-05-21.csv')
 #Set model variables
 yvar = 'cbcl_scr_dsm5_anxdisord_r'
 #Set paths
